@@ -1,0 +1,18 @@
+bundle install
+
+rake db:create
+rake db:migrate
+rake db:seed
+
+redis-server
+
+rails s
+
+
+Test Value	Card Type
+378282246310005	American Express
+371449635398431	American Express
+6011111111111117	Discover
+3530111333300000	JCB
+6304000000000000	Maestro
+5555555555554444	Mastercard
